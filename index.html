@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>The Treasure TROVE</title>
+        <title>TROVE | Home</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -16,17 +16,14 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-              <a class="navbar-brand" href="#">TROVE</a>
-	      <!--<a class="navbar-brand" href="#"><img src="assets/favicon.ico" class="img-fluid"> TROVE</a>-->
-
+              <a class="navbar-brand btn btn-outline-success btn-glow-anim" href="https://datatrove.as.arizona.edu/" target="_blank"><img class="img-responsive" src="assets/favicon.ico" style="height:1.5em; width:auto; vertical-align:middle"></img>&nbsp &nbsp Enter the TROVE (alpha)!</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+                        <li class="nav-item"><a class="nav-link" href="members.html">The Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="presentations.html">Presentations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://ui.adsabs.harvard.edu/public-libraries/FbWmAEsISc2FpGphMW_jXQ">Publications</a></li> 
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="https://ui.adsabs.harvard.edu/public-libraries/FbWmAEsISc2FpGphMW_jXQ">Publications on ADS 🔗</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,23 +34,35 @@
                 <div class="col-sm-3 logo">
                     <img src="assets/TROVE_Logo.png" class="img-responsive logo center">
                 </div> 
-
+                <br>
                 <div class="col-sm-9">
-                    <h1>TROVE</h1>
-                    <p class="lead">A Tool for Rapid Object Vetting and Examination</p>
+                    &nbsp; <h1>Welcome to the Treasure TROVE.</h1>
+                    <h4>A Tool for Rapid Object Vetting and Examination</h4>
+                    <br>
                     <p>
-                        TROVE is a new multi-messenger collaboration comprised primarily of researchers at the <a href="https://www.as.arizona.edu/">University of Arizona</a>, <a href="https://astro.ucsd.edu/">UC San Diego</a> and  <a href="https://ciera.northwestern.edu/">Northwestern University</a>.
-                        The goal of this project is to develop a public, open-source, API-enabled platform and website for the real time evaluation of transient objects associated with multimessenger astrophysics events.  We are actively planning and building this new piece of time domain infrastructure.
+                        TROVE is a new multi-messenger collaboration comprised primarily of researchers at the
+                        <a href="https://www.as.arizona.edu/" target="_blank">University of Arizona</a>,
+                        <a href="https://astro.ucsd.edu/" target="_blank">UC San Diego</a> and
+                        <a href="https://ciera.northwestern.edu/" target="_blank">Northwestern University</a>.
+                        The goal of this project is to develop a <b>public, open-source,</b> API-enabled platform and
+                        website for the real time evaluation of transient objects associated with multimessenger
+                        astrophysics events.  We are actively planning and building this new piece of time domain
+                        infrastructure for <b>broad usage in the community.</b> TROVE is under active development and is currently in <b>alpha</b>.
                     </p>
-                    <p>
-                        <b>NEWS!!!!!!</b>
-                    </p>
-                    <ol>
-  		        <li>We have written a <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260317009V/abstract">paper on S251112cm:</a> our campaign in search of a counterpart, which was done through the SAGUARO collaboration and using the Treasure TROVE!</li>
-  		        <br>
-  			<li>University of Arizona graduate student Noah Franz has written a <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...994L..45F/abstract">paper on SN2025ulz</a>, and our initial vetting algorithm. Accepted by the Astrophysical Journal Letters.</li>
-		    </ol>
+                </div>
+                <div class="col-sm-12">
+                    <h4><b>News!</b></h4>
 
+                    <ul>
+  		                <li>We have written a <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260317009V/abstract">paper on S251112cm</a>, a candidate gravitational-wave event involving a subsolar mass object to which we applied the TROVE! Accepted to the Astrophysical Journal.</li>
+  		                <br>
+  			            <li>University of Arizona graduate student Noah Franz has written a <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...994L..45F/abstract">paper on S250818k and SN2025ulz</a>, and our initial TROVE vetting algorithm! Published in Astrophysical Journal Letters.</li>
+		            </ul>
+                <br><br>
+                </div>
+                <div class="col-sm-12" style="text-align:center">
+                    <p>The Treasure TROVE is funded by the National Science Foundation, grant numbers AST-2432037 and AST-2432036.</p>
+                    <img src="assets/NSF_logo.png" style="height:7em"></img>
                 </div>
             </div>
         </div>
@@ -61,3 +70,20 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
+<style>
+  .btn-glow-anim{
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.30), 0 0 18px rgba(40, 167, 69, 0.18);
+    animation: glowPulse 1.6s ease-in-out infinite;
+  }
+
+  @keyframes glowPulse{
+    0%, 100%{
+      box-shadow: 0 0 10px rgba(40, 167, 69, 0.25), 0 0 18px rgba(40, 167, 69, 0.15);
+      transform: translateY(0);
+    }
+    50%{
+      box-shadow: 0 0 16px rgba(40, 167, 69, 0.55), 0 0 30px rgba(40, 167, 69, 0.30);
+      transform: translateY(-1px);
+    }
+  }
+</style>
